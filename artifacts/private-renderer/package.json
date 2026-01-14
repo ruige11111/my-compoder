@@ -1,0 +1,33 @@
+{
+  "name": "private-renderer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "PORT=3005 next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/standalone": "^7.28.3",
+    "@private-basic-components": "workspace:*",
+    "@types/babel__standalone": "^7.1.9",
+    "@types/path-browserify": "^1.0.3",
+    "next": "15.4.6",
+    "path-browserify": "^1.0.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "styled-components": "^6.1.19"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
